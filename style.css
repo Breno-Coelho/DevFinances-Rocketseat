@@ -41,6 +41,22 @@ h2{
     font-weight: normal;
 }
 
+/**********Links e botões**********/
+a{
+    color: #49AA26;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #3dd705;
+}
+
+.button.new{
+    display: inline-block;
+    margin-bottom: 0.8rem
+}
+
+
 
 /*************Parte do Header**********/
 header{
