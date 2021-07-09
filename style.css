@@ -44,6 +44,7 @@ h2{
 }
 
 /**********Links e botões**********/
+
 a {
     color: var(--green);
     text-decoration: none;
@@ -81,6 +82,21 @@ button:hover{
 .button.cancel:hover{
     opacity: 1;
 }
+
+a{
+    color: #49AA26;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #3dd705;
+}
+
+.button.new{
+    display: inline-block;
+    margin-bottom: 0.8rem
+}
+
 
 /*************Parte do Header**********/
 header{
