@@ -109,8 +109,8 @@ const Utils = {
   },
 
   formatAmount(amount) {
-    amount = Number(amount) * 100
-    return amount
+    amount = amount * 100
+    return Math.round(amount)
   },
 
   formatDate(date) {
